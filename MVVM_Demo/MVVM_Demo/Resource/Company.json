@@ -1,0 +1,22 @@
+[
+   {
+      "company_name": "google",
+      "company_founder": "Larry Page, Sergey Brin"
+   },
+   {
+      "company_name": "Apple",
+      "company_founder": "Steve Jobs, Steve Wozniak, Ronald Wayne"
+   },
+   {
+      "company_name": "LinkedIn",
+      "company_founder": "Reid Hoffman, Jean-Luc Vaillant, Konstantin Guericke, Eric Ly, Allen Blue"
+   },
+   {
+      "company_name": "Tesla",
+      "company_founder": "Elon Musk"
+   },
+   {
+      "company_name": "Toyota",
+      "company_founder": "Kiichiro Toyoda"
+   }
+]
