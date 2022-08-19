@@ -1,0 +1,89 @@
+[
+   {
+      "year": "2018",
+      "champion_team": "France"
+   },
+   {
+      "year": "2014",
+      "champion_team": "Germany"
+   },
+   {
+      "year": "2010",
+      "champion_team": "Spain"
+   },
+   {
+      "year": "2006",
+      "champion_team": "Italy"
+   },
+   {
+      "year": "2002",
+      "champion_team": "Brazil"
+   },
+   {
+      "year": "1998",
+      "champion_team": "France"
+   },
+   {
+      "year": "1994",
+      "champion_team": "Brazil"
+   },
+   {
+      "year": "1990",
+      "champion_team": "Germany"
+   },
+   
+   {
+      "year": "1986",
+      "champion_team": "Argentina"
+   },
+   
+   {
+      "year": "1982",
+      "champion_team": "Italy"
+   },
+   {
+      "year": "1978",
+      "champion_team": "Argentina"
+   },
+   {
+      "year": "1974",
+      "champion_team": "Germany"
+   },
+   {
+      "year": "1970",
+      "champion_team": "Brazil"
+   },
+   {
+      "year": "1966",
+      "champion_team": "England"
+   },
+   {
+       "year": "1962",
+       "champion_team": "Brazil"
+    },
+   {
+        "year": "1958",
+        "champion_team": "Brazil"
+     },
+   {
+      "year": "1954",
+      "champion_team": "Germany"
+   },
+   {
+      "year": "1950",
+      "champion_team": "Uruguay"
+   },
+   {
+      "year": "1938",
+      "champion_team": "Italy"
+   },
+   {
+      "year": "1934",
+      "champion_team": "Italy"
+   },
+   {
+      "year": "1930",
+      "champion_team": "Uruguay"
+   }
+]
+
