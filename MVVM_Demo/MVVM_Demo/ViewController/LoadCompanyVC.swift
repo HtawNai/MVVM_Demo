@@ -11,7 +11,7 @@ class LoadCompanyVC: UIViewController {
     
     @IBOutlet weak var companyTableView : UITableView!
     var companyViewModel : CompanyViewModel!
-    var companies : [Company] = []
+
     lazy var refreshControl = UIRefreshControl()
     
     override func viewDidLoad() {
@@ -20,10 +20,10 @@ class LoadCompanyVC: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        self.showInfoAlert()
+        self.showInstructionInfoAlert()
     }
     
-    func showInfoAlert(){
+    func showInstructionInfoAlert(){
         let alert = UIAlertController(title: "", message: "Please pull the screen to load the data", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default)
         alert.addAction(action)
@@ -48,9 +48,8 @@ class LoadCompanyVC: UIViewController {
 }
 
 extension LoadCompanyVC : CompanyViewModelDelegate{
-    func didLoadCompanyData(companies: [Company]) {
+    func didLoadCompanyData() {
         self.refreshControl.endRefreshing()
-        self.companies = companies
         self.companyTableView.reloadData()
     }
 }
@@ -63,12 +62,12 @@ extension LoadCompanyVC : UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return companies.count
+        return self.companyViewModel.companies.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CompanyTBCell") as! CompanyTBCell
-        cell.config(self.companies[indexPath.row])
+        cell.config(self.companyViewModel.companies[indexPath.row])
         return cell
     }
 }

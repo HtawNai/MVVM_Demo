@@ -20,6 +20,11 @@
 		4F3ABF6228A648CF006847AD /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ABF6128A648CF006847AD /* Company.swift */; };
 		4F3ABF6528A64928006847AD /* CompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ABF6428A64928006847AD /* CompanyViewModel.swift */; };
 		4F3ABF6728A65009006847AD /* CompanyVewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ABF6628A65009006847AD /* CompanyVewModelTests.swift */; };
+		4FBB2C5A28AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5928AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift */; };
+		4FBB2C5C28AF2E4600ED5C5E /* FIFAWorldCupChampion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5B28AF2E4600ED5C5E /* FIFAWorldCupChampion.swift */; };
+		4FBB2C5E28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5D28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift */; };
+		4FBB2C6028AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */; };
+		4FBB2C6228AF2F4A00ED5C5E /* FIFA.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBB2C6128AF2F4A00ED5C5E /* FIFA.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		4F3ABF6128A648CF006847AD /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		4F3ABF6428A64928006847AD /* CompanyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewModel.swift; sourceTree = "<group>"; };
 		4F3ABF6628A65009006847AD /* CompanyVewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyVewModelTests.swift; sourceTree = "<group>"; };
+		4FBB2C5928AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampionViewModel.swift; sourceTree = "<group>"; };
+		4FBB2C5B28AF2E4600ED5C5E /* FIFAWorldCupChampion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampion.swift; sourceTree = "<group>"; };
+		4FBB2C5D28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampionTBCell.swift; sourceTree = "<group>"; };
+		4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampionsVC.swift; sourceTree = "<group>"; };
+		4FBB2C6128AF2F4A00ED5C5E /* FIFA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FIFA.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3ABF6128A648CF006847AD /* Company.swift */,
+				4FBB2C5B28AF2E4600ED5C5E /* FIFAWorldCupChampion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3ABF5C28A64573006847AD /* CompanyTBCell.swift */,
+				4FBB2C5D28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3ABF6428A64928006847AD /* CompanyViewModel.swift */,
+				4FBB2C5928AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -173,6 +186,7 @@
 		4F3ABF5E28A648AA006847AD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				4FBB2C6128AF2F4A00ED5C5E /* FIFA.json */,
 				4F3ABF5F28A648BA006847AD /* Company.json */,
 				4F3ABF3128A63265006847AD /* Assets.xcassets */,
 			);
@@ -183,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3ABF2C28A63265006847AD /* LoadCompanyVC.swift */,
+				4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -291,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBB2C6228AF2F4A00ED5C5E /* FIFA.json in Resources */,
 				4F3ABF3528A63265006847AD /* LaunchScreen.storyboard in Resources */,
 				4F3ABF3228A63265006847AD /* Assets.xcassets in Resources */,
 				4F3ABF3028A63265006847AD /* Main.storyboard in Resources */,
@@ -319,12 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBB2C5C28AF2E4600ED5C5E /* FIFAWorldCupChampion.swift in Sources */,
 				4F3ABF6528A64928006847AD /* CompanyViewModel.swift in Sources */,
 				4F3ABF2D28A63265006847AD /* LoadCompanyVC.swift in Sources */,
 				4F3ABF2928A63265006847AD /* AppDelegate.swift in Sources */,
 				4F3ABF2B28A63265006847AD /* SceneDelegate.swift in Sources */,
+				4FBB2C5E28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift in Sources */,
 				4F3ABF6228A648CF006847AD /* Company.swift in Sources */,
 				4F3ABF5D28A64573006847AD /* CompanyTBCell.swift in Sources */,
+				4FBB2C5A28AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift in Sources */,
+				4FBB2C6028AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

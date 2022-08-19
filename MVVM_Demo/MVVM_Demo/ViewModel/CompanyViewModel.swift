@@ -8,11 +8,11 @@
 import Foundation
 
 protocol CompanyViewModelDelegate{
-    func didLoadCompanyData(companies: [Company])
+    func didLoadCompanyData()
 }
 
-struct CompanyViewModel{
-    
+class CompanyViewModel{
+    var companies : [Company] = []
     var companyDelegate : CompanyViewModelDelegate
     
     init(companyDelegate : CompanyViewModelDelegate){
@@ -23,10 +23,11 @@ struct CompanyViewModel{
         if let path = Bundle.main.path(forResource: "Company", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let companies = try JSONDecoder().decode([Company].self, from: data)
-                self.companyDelegate.didLoadCompanyData(companies: companies)
+                self.companies = try JSONDecoder().decode([Company].self, from: data)
+                self.companyDelegate.didLoadCompanyData()
             }catch{
-                self.companyDelegate.didLoadCompanyData(companies: [])
+                self.companies = []
+                self.companyDelegate.didLoadCompanyData()
             }
         }
     }
