@@ -25,6 +25,7 @@
 		4FBB2C5E28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5D28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift */; };
 		4FBB2C6028AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */; };
 		4FBB2C6228AF2F4A00ED5C5E /* FIFA.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBB2C6128AF2F4A00ED5C5E /* FIFA.json */; };
+		4FBB2C6428AF3A1800ED5C5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB2C6328AF3A1800ED5C5E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		4FBB2C5D28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampionTBCell.swift; sourceTree = "<group>"; };
 		4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFAWorldCupChampionsVC.swift; sourceTree = "<group>"; };
 		4FBB2C6128AF2F4A00ED5C5E /* FIFA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FIFA.json; sourceTree = "<group>"; };
+		4FBB2C6328AF3A1800ED5C5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		4F3ABF6328A64904006847AD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4FBB2C6328AF3A1800ED5C5E /* HomeViewController.swift */,
 				4F3ABF2C28A63265006847AD /* LoadCompanyVC.swift */,
 				4FBB2C5F28AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift */,
 			);
@@ -342,6 +345,7 @@
 				4F3ABF2B28A63265006847AD /* SceneDelegate.swift in Sources */,
 				4FBB2C5E28AF2E6400ED5C5E /* FIFAWorldCupChampionTBCell.swift in Sources */,
 				4F3ABF6228A648CF006847AD /* Company.swift in Sources */,
+				4FBB2C6428AF3A1800ED5C5E /* HomeViewController.swift in Sources */,
 				4F3ABF5D28A64573006847AD /* CompanyTBCell.swift in Sources */,
 				4FBB2C5A28AF2E3600ED5C5E /* FIFAWorldCupChampionViewModel.swift in Sources */,
 				4FBB2C6028AF2E8E00ED5C5E /* FIFAWorldCupChampionsVC.swift in Sources */,

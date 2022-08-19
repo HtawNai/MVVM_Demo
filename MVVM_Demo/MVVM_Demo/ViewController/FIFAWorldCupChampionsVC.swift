@@ -23,16 +23,14 @@ class FIFAWorldCupChampionsVC: UITableViewController {
     }
     
     private func setup(){
+        self.title = "Champion list"
+        
         self.worldCupViewModel = FIFAWorldCupChampionViewModel()
         self.worldCupViewModel.didLoadFIFAData = { isSuccess in
             self.refreshControl?.endRefreshing()
             self.tableView.reloadData()
             self.errorLabel.isHidden = isSuccess
         }
-    }
-    
-    private func loadData(){
-        
     }
     
     private func showErrorAlert(){

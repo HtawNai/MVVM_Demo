@@ -31,6 +31,7 @@ class LoadCompanyVC: UIViewController {
     }
     
     func setup(){
+        self.title = "Company list"
         self.companyViewModel = CompanyViewModel(companyDelegate: self)
         
         self.companyTableView.delegate = self
