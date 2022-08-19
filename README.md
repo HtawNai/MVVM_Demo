@@ -2,4 +2,12 @@
 
 MVVM demo using delegate/protocol function.
 
-By using combine and clouser coming soon.
+## Modification
+Added Closure pattern
+
+By using combine coming soon.
+
+##View Controller list
+#### LoadCompanyVC is using Protocol/Delegate
+#### FIFAWorldCupChampionsVC is using Closure pattern.
+
